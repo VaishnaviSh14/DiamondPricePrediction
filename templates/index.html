@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Price Prediction Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('../static/Black.jpg'); /* Background image URL */
+            background-size: cover; 
+            background-repeat: repeat; 
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for the heading */
+        }
+
+        h1 {
+            font-size: 46px;
+            margin: 0;
+            color: gray;
+            border: 2px solid black;
+            background-color: #F3FFFF;
+        }
+
+        .image-container {
+            position: relative;
+            text-align: center;
+            margin-top: 50px; /* Adjust as needed to center the button vertically */
+        }
+
+        .button-container {
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10vh 50vw; /* Adjust the top padding to move the text upwards */
+            font-size: 22px;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.7);             color: black;
+            text-decoration: none;
+            clip-path: polygon(50% 0%, 70% 40%, 50% 100%, 30% 40%);
+            margin-top: -10px; /* Negative margin to move the button text up */
+        }
+        
+
+        .button:hover {
+            background-color:gray ;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Diamond Price Prediction Model</h1>
+    </div>
+    <div class="image-container">
+        <div class="button-container">
+            <a href="/predict" class="button">Go to Prediction Model</a>
+        </div>
+    </div>
+</body>
+</html>
